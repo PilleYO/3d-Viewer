@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Modell</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body, html { margin: 0; height: 100%; }
+    model-viewer { width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <model-viewer 
+    src="https://raw.githubusercontent.com/PilleYO/3d-Viewer/refs/heads/main/WW3D.gltf"
+    alt="3D Modell"
+    camera-controls
+    auto-rotate
+    background-color="#ffffff">
+  </model-viewer>
+</body>
+</html>
